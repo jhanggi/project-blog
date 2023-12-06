@@ -1,5 +1,6 @@
 import BlogPostList from "@/components/BlogPostList";
 import styles from "./homepage.module.css";
+import { BLOG_TITLE } from "@/constants";
 
 function Home() {
   return (
@@ -12,3 +13,7 @@ function Home() {
 }
 
 export default Home;
+
+export const metadata = {
+  title: BLOG_TITLE,
+};
